@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1A83CB25E39DAC00536086 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A83CA25E39DAC00536086 /* UITableViewCell+Extensions.swift */; };
+		CE1A83D425E39F2C00536086 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A83D325E39F2C00536086 /* CountryModel.swift */; };
+		CE1A83E625E3C78D00536086 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A83E525E3C78D00536086 /* UIButton+Extensions.swift */; };
+		CE42E6CB25E3975A008F8E26 /* CountriesListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E6CA25E3975A008F8E26 /* CountriesListContract.swift */; };
+		CE42E6D025E39765008F8E26 /* CountriesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E6CF25E39765008F8E26 /* CountriesListPresenter.swift */; };
+		CE42E6D525E39772008F8E26 /* CountriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E6D425E39772008F8E26 /* CountriesListView.swift */; };
+		CE42E6DA25E3977D008F8E26 /* CountriesListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE42E6D925E3977D008F8E26 /* CountriesListView.xib */; };
+		CE42E6E625E39909008F8E26 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E6E525E39909008F8E26 /* CustomTableViewCell.swift */; };
+		CE42E6F725E39995008F8E26 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE42E6F625E39995008F8E26 /* CustomTableViewCell.xib */; };
+		CECAB1FE25E0F8F900132A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB1FD25E0F8F900132A21 /* AppDelegate.swift */; };
+		CECAB20725E0F8FA00132A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECAB20625E0F8FA00132A21 /* Assets.xcassets */; };
+		CECAB20A25E0F8FA00132A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECAB20825E0F8FA00132A21 /* LaunchScreen.storyboard */; };
+		CECAB21525E0F8FA00132A21 /* VPNTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB21425E0F8FA00132A21 /* VPNTestTests.swift */; };
+		CECAB22025E0F8FA00132A21 /* VPNTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB21F25E0F8FA00132A21 /* VPNTestUITests.swift */; };
+		CECAB23425E0F9A400132A21 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB23325E0F9A400132A21 /* Navigator.swift */; };
+		CECAB23925E0F9C800132A21 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB23825E0F9C800132A21 /* Factory.swift */; };
+		CECAB23E25E0F9EE00132A21 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB23D25E0F9EE00132A21 /* Assembly.swift */; };
+		CECAB24325E0FE8000132A21 /* ConnectVPNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB24225E0FE8000132A21 /* ConnectVPNView.swift */; };
+		CECAB25425E0FECA00132A21 /* ConnectVPNContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB25325E0FECA00132A21 /* ConnectVPNContract.swift */; };
+		CECAB25925E0FED900132A21 /* ConnectVPNPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB25825E0FED900132A21 /* ConnectVPNPresenter.swift */; };
+		CECAB26325E1013000132A21 /* ConnectVPNView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECAB26225E1013000132A21 /* ConnectVPNView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECAB21125E0F8FA00132A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECAB1F225E0F8F900132A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECAB1F925E0F8F900132A21;
+			remoteInfo = VPNTest;
+		};
+		CECAB21C25E0F8FA00132A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECAB1F225E0F8F900132A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECAB1F925E0F8F900132A21;
+			remoteInfo = VPNTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1A83CA25E39DAC00536086 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		CE1A83D325E39F2C00536086 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		CE1A83E525E3C78D00536086 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		CE42E6CA25E3975A008F8E26 /* CountriesListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListContract.swift; sourceTree = "<group>"; };
+		CE42E6CF25E39765008F8E26 /* CountriesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListPresenter.swift; sourceTree = "<group>"; };
+		CE42E6D425E39772008F8E26 /* CountriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListView.swift; sourceTree = "<group>"; };
+		CE42E6D925E3977D008F8E26 /* CountriesListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesListView.xib; sourceTree = "<group>"; };
+		CE42E6E525E39909008F8E26 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE42E6F625E39995008F8E26 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		CECAB1FA25E0F8F900132A21 /* VPNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECAB1FD25E0F8F900132A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECAB20625E0F8FA00132A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECAB20925E0F8FA00132A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECAB20B25E0F8FA00132A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECAB21025E0F8FA00132A21 /* VPNTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPNTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECAB21425E0F8FA00132A21 /* VPNTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNTestTests.swift; sourceTree = "<group>"; };
+		CECAB21625E0F8FA00132A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECAB21B25E0F8FA00132A21 /* VPNTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPNTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECAB21F25E0F8FA00132A21 /* VPNTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNTestUITests.swift; sourceTree = "<group>"; };
+		CECAB22125E0F8FA00132A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECAB23325E0F9A400132A21 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		CECAB23825E0F9C800132A21 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		CECAB23D25E0F9EE00132A21 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		CECAB24225E0FE8000132A21 /* ConnectVPNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectVPNView.swift; sourceTree = "<group>"; };
+		CECAB25325E0FECA00132A21 /* ConnectVPNContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectVPNContract.swift; sourceTree = "<group>"; };
+		CECAB25825E0FED900132A21 /* ConnectVPNPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectVPNPresenter.swift; sourceTree = "<group>"; };
+		CECAB26225E1013000132A21 /* ConnectVPNView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectVPNView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECAB1F725E0F8F900132A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAB20D25E0F8FA00132A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAB21825E0F8FA00132A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1A83C325E39CFB00536086 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB1FD25E0F8F900132A21 /* AppDelegate.swift */,
+				CECAB20825E0F8FA00132A21 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE1A83CF25E39DB100536086 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A83CA25E39DAC00536086 /* UITableViewCell+Extensions.swift */,
+				CE1A83E525E3C78D00536086 /* UIButton+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE1A83D825E39F5800536086 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A83D325E39F2C00536086 /* CountryModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CE42E6BC25E387D3008F8E26 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB20625E0F8FA00132A21 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CE42E6DE25E39790008F8E26 /* CountriesListView */ = {
+			isa = PBXGroup;
+			children = (
+				CE42E6EF25E39920008F8E26 /* Cell */,
+				CE42E6CA25E3975A008F8E26 /* CountriesListContract.swift */,
+				CE42E6CF25E39765008F8E26 /* CountriesListPresenter.swift */,
+				CE42E6D425E39772008F8E26 /* CountriesListView.swift */,
+				CE42E6D925E3977D008F8E26 /* CountriesListView.xib */,
+			);
+			path = CountriesListView;
+			sourceTree = "<group>";
+		};
+		CE42E6EF25E39920008F8E26 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE42E6E525E39909008F8E26 /* CustomTableViewCell.swift */,
+				CE42E6F625E39995008F8E26 /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CECAB1F125E0F8F900132A21 = {
+			isa = PBXGroup;
+			children = (
+				CECAB1FC25E0F8F900132A21 /* VPNTest */,
+				CECAB21325E0F8FA00132A21 /* VPNTestTests */,
+				CECAB21E25E0F8FA00132A21 /* VPNTestUITests */,
+				CECAB1FB25E0F8F900132A21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECAB1FB25E0F8F900132A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB1FA25E0F8F900132A21 /* VPNTest.app */,
+				CECAB21025E0F8FA00132A21 /* VPNTestTests.xctest */,
+				CECAB21B25E0F8FA00132A21 /* VPNTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECAB1FC25E0F8F900132A21 /* VPNTest */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB20B25E0F8FA00132A21 /* Info.plist */,
+				CE1A83C325E39CFB00536086 /* App */,
+				CE42E6BC25E387D3008F8E26 /* Resourses */,
+				CECAB24F25E0FEAC00132A21 /* UI */,
+				CECAB24B25E0FEA000132A21 /* Core */,
+				CE1A83CF25E39DB100536086 /* Extensions */,
+			);
+			path = VPNTest;
+			sourceTree = "<group>";
+		};
+		CECAB21325E0F8FA00132A21 /* VPNTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB21425E0F8FA00132A21 /* VPNTestTests.swift */,
+				CECAB21625E0F8FA00132A21 /* Info.plist */,
+			);
+			path = VPNTestTests;
+			sourceTree = "<group>";
+		};
+		CECAB21E25E0F8FA00132A21 /* VPNTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB21F25E0F8FA00132A21 /* VPNTestUITests.swift */,
+				CECAB22125E0F8FA00132A21 /* Info.plist */,
+			);
+			path = VPNTestUITests;
+			sourceTree = "<group>";
+		};
+		CECAB24725E0FE9000132A21 /* RootNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB23325E0F9A400132A21 /* Navigator.swift */,
+				CECAB23825E0F9C800132A21 /* Factory.swift */,
+			);
+			path = RootNavigation;
+			sourceTree = "<group>";
+		};
+		CECAB24B25E0FEA000132A21 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB23D25E0F9EE00132A21 /* Assembly.swift */,
+				CE1A83D825E39F5800536086 /* Entities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CECAB24F25E0FEAC00132A21 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB25E25E0FEEE00132A21 /* ConnectVPNView */,
+				CE42E6DE25E39790008F8E26 /* CountriesListView */,
+				CECAB24725E0FE9000132A21 /* RootNavigation */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CECAB25E25E0FEEE00132A21 /* ConnectVPNView */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB25325E0FECA00132A21 /* ConnectVPNContract.swift */,
+				CECAB25825E0FED900132A21 /* ConnectVPNPresenter.swift */,
+				CECAB24225E0FE8000132A21 /* ConnectVPNView.swift */,
+				CECAB26225E1013000132A21 /* ConnectVPNView.xib */,
+			);
+			path = ConnectVPNView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECAB1F925E0F8F900132A21 /* VPNTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECAB22425E0F8FA00132A21 /* Build configuration list for PBXNativeTarget "VPNTest" */;
+			buildPhases = (
+				CECAB1F625E0F8F900132A21 /* Sources */,
+				CECAB1F725E0F8F900132A21 /* Frameworks */,
+				CECAB1F825E0F8F900132A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNTest;
+			productName = VPNTest;
+			productReference = CECAB1FA25E0F8F900132A21 /* VPNTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECAB20F25E0F8FA00132A21 /* VPNTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECAB22725E0F8FA00132A21 /* Build configuration list for PBXNativeTarget "VPNTestTests" */;
+			buildPhases = (
+				CECAB20C25E0F8FA00132A21 /* Sources */,
+				CECAB20D25E0F8FA00132A21 /* Frameworks */,
+				CECAB20E25E0F8FA00132A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECAB21225E0F8FA00132A21 /* PBXTargetDependency */,
+			);
+			name = VPNTestTests;
+			productName = VPNTestTests;
+			productReference = CECAB21025E0F8FA00132A21 /* VPNTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECAB21A25E0F8FA00132A21 /* VPNTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECAB22A25E0F8FA00132A21 /* Build configuration list for PBXNativeTarget "VPNTestUITests" */;
+			buildPhases = (
+				CECAB21725E0F8FA00132A21 /* Sources */,
+				CECAB21825E0F8FA00132A21 /* Frameworks */,
+				CECAB21925E0F8FA00132A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECAB21D25E0F8FA00132A21 /* PBXTargetDependency */,
+			);
+			name = VPNTestUITests;
+			productName = VPNTestUITests;
+			productReference = CECAB21B25E0F8FA00132A21 /* VPNTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECAB1F225E0F8F900132A21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CECAB1F925E0F8F900132A21 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CECAB20F25E0F8FA00132A21 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CECAB1F925E0F8F900132A21;
+					};
+					CECAB21A25E0F8FA00132A21 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CECAB1F925E0F8F900132A21;
+					};
+				};
+			};
+			buildConfigurationList = CECAB1F525E0F8F900132A21 /* Build configuration list for PBXProject "VPNTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECAB1F125E0F8F900132A21;
+			productRefGroup = CECAB1FB25E0F8F900132A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECAB1F925E0F8F900132A21 /* VPNTest */,
+				CECAB20F25E0F8FA00132A21 /* VPNTestTests */,
+				CECAB21A25E0F8FA00132A21 /* VPNTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECAB1F825E0F8F900132A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE42E6DA25E3977D008F8E26 /* CountriesListView.xib in Resources */,
+				CECAB26325E1013000132A21 /* ConnectVPNView.xib in Resources */,
+				CE42E6F725E39995008F8E26 /* CustomTableViewCell.xib in Resources */,
+				CECAB20A25E0F8FA00132A21 /* LaunchScreen.storyboard in Resources */,
+				CECAB20725E0F8FA00132A21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAB20E25E0F8FA00132A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAB21925E0F8FA00132A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECAB1F625E0F8F900132A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECAB24325E0FE8000132A21 /* ConnectVPNView.swift in Sources */,
+				CE1A83E625E3C78D00536086 /* UIButton+Extensions.swift in Sources */,
+				CECAB23925E0F9C800132A21 /* Factory.swift in Sources */,
+				CE1A83D425E39F2C00536086 /* CountryModel.swift in Sources */,
+				CE1A83CB25E39DAC00536086 /* UITableViewCell+Extensions.swift in Sources */,
+				CE42E6E625E39909008F8E26 /* CustomTableViewCell.swift in Sources */,
+				CECAB25925E0FED900132A21 /* ConnectVPNPresenter.swift in Sources */,
+				CECAB23E25E0F9EE00132A21 /* Assembly.swift in Sources */,
+				CE42E6D025E39765008F8E26 /* CountriesListPresenter.swift in Sources */,
+				CE42E6CB25E3975A008F8E26 /* CountriesListContract.swift in Sources */,
+				CECAB1FE25E0F8F900132A21 /* AppDelegate.swift in Sources */,
+				CECAB23425E0F9A400132A21 /* Navigator.swift in Sources */,
+				CECAB25425E0FECA00132A21 /* ConnectVPNContract.swift in Sources */,
+				CE42E6D525E39772008F8E26 /* CountriesListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAB20C25E0F8FA00132A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECAB21525E0F8FA00132A21 /* VPNTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAB21725E0F8FA00132A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECAB22025E0F8FA00132A21 /* VPNTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECAB21225E0F8FA00132A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECAB1F925E0F8F900132A21 /* VPNTest */;
+			targetProxy = CECAB21125E0F8FA00132A21 /* PBXContainerItemProxy */;
+		};
+		CECAB21D25E0F8FA00132A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECAB1F925E0F8F900132A21 /* VPNTest */;
+			targetProxy = CECAB21C25E0F8FA00132A21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECAB20825E0F8FA00132A21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECAB20925E0F8FA00132A21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECAB22225E0F8FA00132A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECAB22325E0F8FA00132A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECAB22525E0F8FA00132A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPNTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryl.VPNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECAB22625E0F8FA00132A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPNTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryl.VPNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECAB22825E0F8FA00132A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPNTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryl.VPNTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPNTest.app/VPNTest";
+			};
+			name = Debug;
+		};
+		CECAB22925E0F8FA00132A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPNTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryl.VPNTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPNTest.app/VPNTest";
+			};
+			name = Release;
+		};
+		CECAB22B25E0F8FA00132A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPNTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryl.VPNTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VPNTest;
+			};
+			name = Debug;
+		};
+		CECAB22C25E0F8FA00132A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPNTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryl.VPNTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VPNTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECAB1F525E0F8F900132A21 /* Build configuration list for PBXProject "VPNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAB22225E0F8FA00132A21 /* Debug */,
+				CECAB22325E0F8FA00132A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECAB22425E0F8FA00132A21 /* Build configuration list for PBXNativeTarget "VPNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAB22525E0F8FA00132A21 /* Debug */,
+				CECAB22625E0F8FA00132A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECAB22725E0F8FA00132A21 /* Build configuration list for PBXNativeTarget "VPNTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAB22825E0F8FA00132A21 /* Debug */,
+				CECAB22925E0F8FA00132A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECAB22A25E0F8FA00132A21 /* Build configuration list for PBXNativeTarget "VPNTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAB22B25E0F8FA00132A21 /* Debug */,
+				CECAB22C25E0F8FA00132A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECAB1F225E0F8F900132A21 /* Project object */;
+}
